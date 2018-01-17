@@ -30,5 +30,6 @@ if (typeof window !== 'undefined') {
 	GlobalVue = global.Vue
 }
 if (GlobalVue) {
+	console.log('asdasd');
 	GlobalVue.use(plugin)
 }
